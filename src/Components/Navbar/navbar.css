@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Tilt+Warp&display=swap');
+
+
+.logoDiv{
+    background-color: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .navButton{
+    padding: .4rem 1.5rem;
+    background: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: white;
+    transition: .5s ease;
+}  */
+
+
+.navList.flex{
+background: var(--PrimaryColor);
+position: center;
+height: max-content;
+padding: 1rem;
+top:0;
+box-shadow: 0 2px 4px color gray;
+z-index: 1000;
+}
+
+.navItem{
+    padding: 1rem 0;
+}
+
+.navLink{
+    color: white;
+    font-size: .9rem;
+    font-weight: 600;
+    
+    &:hover{
+        color: var(--SecondaryColor);
+    }
+}
+
+.navButton{
+    background-color: white;
+    padding: .4rem 1.5rem;
+    display: flex;
+    color: rgba(50, 109, 205, 0.961);
+    flex-direction: column;
+    margin-top: 10px;
+    font-weight: 600;
+    &:hover{
+        color: yellow;
+    }
+}
+
+.closeNavbar{
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem;
+    color: var(--SecondaryColor);
+    font-size: larger;
+    &:hover{
+        color: var(--PrimaryColor);
+    }
+}
+
+.activeNavbar{
+    left: 0;
+}
+
+.toggleNavbar{
+    background-color: var(--PrimaryColor);
+    color:white;
+}

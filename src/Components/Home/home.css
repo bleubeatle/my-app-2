@@ -1,0 +1,61 @@
+.home{
+    height: 70vh;
+    background:url('/Users/student30/dev/projects/my-app2/src/Assets/cozy.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.title{
+    font-size: x-large;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.btn{
+    padding: .4rem 1.5rem;
+    background: rgba(50, 109, 205, 0.961);
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+    color: white;
+    transition: 2s ease;
+    font-weight: 600;
+    box-shadow: 0 2px 8px 4px black;
+    &:hover{
+        color: yellow;
+    }
+
+}
+
+.homeCard{
+    height: 35vh;
+    width: 40vh;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: white;
+    position: center;
+    margin-top: 30px;
+    box-shadow: 0 2px 8px 4px black;
+    transform: translate(-5%);
+}
+
+.headerSearchInput{
+    border: 3px solid #febb02;
+    
+    width: 250px;
+    padding: 20px 0px 15px 0px;
+    font-size: medium;
+    font-weight: 600;
+    align-items: center;
+    color: black;
+    box-shadow: 0 2px 8px 4px black;
+}
+
+.btn{
+    margin-top: 20px;
+    box-shadow: 0 2px 8px 4px black;
+}

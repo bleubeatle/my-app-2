@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Tilt+Warp&display=swap');
+
+
+body{
+  /* background-color: #185ebf; */
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  transition: .3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* color scheme */
+:root{
+  --PrimaryColor: #003580;
+  --SecondaryColor: white;
+  --textColor: black;
+  --inputColor: black;
+  --outlineColor: yellow;
+
+
+};
+
+
+/* setting up default styling so i wont have to pixle push later
+following youtube reference https://www.youtube.com/watch?v=8w2U5J8nAOA&t=2314s*/
+
+li{
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section{
+  padding: 4rem 0 2rem;
+}
+
+.container{
+  padding-left: 1.5 rem;
+  padding-right: 1.5 rem;
+  
+}
+
+
+.flex{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  transition: .5s ease;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.secIntro{
+  max-width: 70%;
+  text-align: left;
+  margin:0 auto 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  font-size: 100%;
 }
+/* 
+.navButton{
+  padding: .4rem 1.5rem;
+  background: var(--SecondaryColor);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+} */
